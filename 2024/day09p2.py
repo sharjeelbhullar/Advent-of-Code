@@ -4,7 +4,10 @@ blanks = []
 fid = 0
 pos = 0
 
-for i, char in enumerate(input()):
+with open('input.txt', 'r') as f:
+    input_str = f.read().strip()
+
+for i, char in enumerate(input_str):
     x = int(char)
     if i % 2 == 0:
         if x == 0:

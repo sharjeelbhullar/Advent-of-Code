@@ -1,6 +1,6 @@
 from functools import cache
 
-stones = [int(x) for x in input().split()]
+stones = [int(x) for x in open('input.txt').read().strip().split()]
 
 @cache
 def count(stone, steps):

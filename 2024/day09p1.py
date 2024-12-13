@@ -1,7 +1,10 @@
 disk = []
 fid = 0
 
-for i, char in enumerate(input()):
+with open('input.txt', 'r') as file:
+    data = file.read().strip()
+
+for i, char in enumerate(data):
     x = int(char)
     if i % 2 == 0:
         disk += [fid] * x

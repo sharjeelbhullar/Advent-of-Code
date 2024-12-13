@@ -1,4 +1,5 @@
-stones = [int(x) for x in input().split()]
+with open('input.txt', 'r') as file:
+    stones = [int(x) for x in file.readline().split()]
 
 for _ in range(25):
     output = []
