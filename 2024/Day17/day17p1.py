@@ -1,6 +1,8 @@
 import re
+import os
 
-a, b, c, *program = map(int, re.findall(r"\d+", open('input.txt').read()))
+input_path = os.path.join(os.path.dirname(__file__), 'input.txt')
+a, b, c, *program = map(int, re.findall(r"\d+", open(input_path).read()))
 
 pointer = 0
 output = []

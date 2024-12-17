@@ -1,6 +1,8 @@
 import re
+import os
 
-program = list(map(int, re.findall(r"\d+", open('input.txt').read())[3:]))
+input_path = os.path.join(os.path.dirname(__file__), 'input.txt')
+program = list(map(int, re.findall(r"\d+", open(input_path).read())[3:]))
 assert program[-2:] == [3, 0], "program does not end with JNZ 0"
 
 def find(target, ans):
