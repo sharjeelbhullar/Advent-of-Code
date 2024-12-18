@@ -15,6 +15,7 @@ This is a repository for my solutions to the Advent of Code.
 ### Private Leaderboard
 
 ```text
+Advent of Code 2024  
 You have 127 points.
 
       --------Part 1--------   -------Part 2--------
