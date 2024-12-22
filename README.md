@@ -16,10 +16,11 @@ This is a repository for my solutions to the Advent of Code.
 
 ```text
 Advent of Code 2024  
-You have 267 points.
+You have 336 points.
 
       --------Part 1--------   -------Part 2--------
 Day       Time   Rank  Score       Time  Rank  Score
+ 22   00:01:02     32     69   00:16:00   183      0
  21   01:06:50    520      0   01:06:56   128      0
  20   00:04:37     31     70   00:15:43    98      3
  19   00:01:01     34     67   00:03:30   115      0
